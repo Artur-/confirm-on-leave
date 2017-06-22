@@ -15,7 +15,7 @@ public class MyUI extends UI {
     protected void init(VaadinRequest vaadinRequest) {
         MainLayout mainLayout = new MainLayout();
         Navigator navigator = new Navigator(this, (ViewDisplay) mainLayout);
-        navigator.addView(FormView.VIEW_ID, FormView.class);
+        navigator.addView(FormView.VIEW_ID, new FormView());
         navigator.addView(AboutView.VIEW_ID, AboutView.class);
         navigator.setErrorView(ErrorView.class);
         setNavigator(navigator);
