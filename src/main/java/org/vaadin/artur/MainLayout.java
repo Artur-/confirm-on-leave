@@ -18,6 +18,8 @@ public class MainLayout extends VerticalLayout implements ViewDisplay {
                 FormView.VIEW_ID);
         Button navigateToAbout = createNavigationButton("About",
                 AboutView.VIEW_ID);
+        addComponent(new Label(
+                "Make some changes to the form and try to navigate to the 'about' view or log out."));
         addComponent(new HorizontalLayout(navigateToForm, navigateToAbout,
                 createLogout()));
         addComponent(contents);
