@@ -15,4 +15,4 @@ A live demo is running at http://artur.app.fi/confirm-on-leave
 
 # Notes
 
-This example requires a Vaadin Framework version newer than 8.1.0.beta2, currently 8.1-SNAPSHOT
+This example requires Vaadin Framework 8.1.0.beta3 or newer
